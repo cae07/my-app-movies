@@ -100,7 +100,7 @@ const movies = [
   {
     title: 'Um Homem de Família',
     subtitle: 'E se você tivesse uma segunda chance?',
-    storyline: 'ack Campbell um investidor entediado com sua longa vida de solteiro. Um belo dia, ele acorda e começa a imaginar como teria sido sua vida se tivesse se casado com Kate, sua namorada nos tempos de colégio. Até que, repentinamente, Jack acorda e se vê um feliz marido, casado com Kate, pai de duas crianças e levando uma tranquila vida no subúrbio.',
+    storyline: 'Jack Campbell um investidor entediado com sua longa vida de solteiro. Um belo dia, ele acorda e começa a imaginar como teria sido sua vida se tivesse se casado com Kate, sua namorada nos tempos de colégio. Até que, repentinamente, Jack acorda e se vê um feliz marido, casado com Kate, pai de duas crianças e levando uma tranquila vida no subúrbio.',
     rating: 4.8,
     imagePath: 'images/homemDeFamilia.jpg',
   },
