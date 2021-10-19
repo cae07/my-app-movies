@@ -1,13 +1,16 @@
-import React, { Link } from 'react';
+import React from 'react';
 
 function Header() {
   return (
-    <>
-      <Link to="/">HOME</Link>
-      <Link to="/details">DETALHES</Link>
-      <Link to="/about">SOBRE O CAÊ</Link>
-      <Link to="/comments">COMENTÁRIOS</Link>
-    </>
+    <div>
+      <h1>SUGESTFLIX</h1>
+      <nav>
+        <a href="/">HOME</a>
+        <a href="/details">DETALHES</a>
+        <a href="/about">SOBRE O CAÊ</a>
+        <a href="/comments">COMENTÁRIOS</a>
+      </nav>
+    </div>
   );
 }
 
