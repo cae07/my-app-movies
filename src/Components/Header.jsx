@@ -6,7 +6,6 @@ function Header() {
       <h1>SUGESTFLIX</h1>
       <nav>
         <a href="/">HOME</a>
-        <a href="/details">DETALHES</a>
         <a href="/about">SOBRE O CAÊ</a>
         <a href="/comments">COMENTÁRIOS</a>
       </nav>
