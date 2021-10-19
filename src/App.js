@@ -1,13 +1,21 @@
 import React from 'react';
-import Cards from './Components/Cards';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
+import MainPage from './Pages/MainPage';
+import Details from './Pages/Details';
+import About from './Pages/About';
+
 
 function App() {
   return (
     <div>
       <Header />
-      <Cards />
+      <BrowserRouter>
+        <Route exact path="/" component={ MainPage } />
+        <Route path="/details" component={ Details } />
+        <Route path="/about" component={ About } />
+      </BrowserRouter>
       <Footer />
     </div>
   );
