@@ -361,7 +361,7 @@ const movies = [
     subtitle: 'O único que conseguiu escapar é também sua última chance.',
     storyline: 'Um general, herói na Guerra do Vietnã, e seus comandados se apoderam de poderosas armas químicas e se instalam na prisão de Alcatraz, com 81 reféns. De lá eles ameaçam disparar as armas sobre São Francisco se 100 milhões de dólares não forem pagos, sendo que grande parte desta quantia será para doar às famílias de soldados americanos que morreram em missões secretas e nunca foram reconhecidos pela pátria. Para combatê-los, um grupo de elite é mandado para a ilha e entre eles está um jovem especialista em armas bioquímicas e o único homem que escapou do presídio, só que agora ele tem de entrar e, se possível, completar sua missão e sair vivo.',
     rating: 4.8,
-    imagePath: 'images/AOrigem.jpg',
+    imagePath: 'images/rocha.jpg',
   },
 ]
 
