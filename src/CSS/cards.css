@@ -11,7 +11,27 @@
 
 .card-image {
   border: 2px solid rgb(61, 56, 56);
+  display: flex;
+  flex-direction: column;
   margin: 11px;
   margin-top: 50px;
   padding: 15px 5px 15px;
+}
+
+.card-image button {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-left: 12%;
+  margin-top: 15px;
+  max-width: 150px;
+  transition: box-shadow 0.1s;
+}
+
+button:hover {
+  border: 4px solid #00d9ff;
+  color: #00d9ff;
+  box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+  text-shadow: 0px 0px 10px #00d9ff;
 }

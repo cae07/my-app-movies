@@ -10,12 +10,16 @@ function Cards() {
           className="cards-container"
           key={ `${movie.title}-${idx}` }
         >
+          <div className="card-image">
             <img
-              className="card-image"
               src={ movie.imagePath }
               alt={ `card filme: ${movie.title}` }
               height="300px"
             />
+            <button>
+              detalhes
+            </button>
+          </div>
         </section>
       ))}
     </div>
