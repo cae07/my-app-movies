@@ -95,7 +95,7 @@ const movies = [
     subtitle: 'O que fazemos na vida ecoa na eternidade.',
     storyline: 'Nos dias finais do reinado de Marcus Aurelius, o imperador desperta a ira de seu filho Commodus ao tornar pública sua predileção em deixar o trono para Maximus, o comandante do exército romano. Sedento pelo poder, Commodus mata seu pai, assume a coroa e ordena a morte de Maximus, que consegue fugir antes de ser pego e passa a se esconder sob a identidade de um escravo e gladiador do Império Romano.',
     rating: 4.5,
-    imagePath: 'public/images/gladiador.jpg',
+    imagePath: 'images/gladiador.jpg',
   },
   {
     title: 'Um Homem de Família',
@@ -193,7 +193,7 @@ const movies = [
     subtitle: 'Ele viu o mundo de uma maneira que ninguém poderia imaginar.',
     storyline: 'John Nash (Russell Crowe) é um gênio da matemática que, aos 21 anos, formulou um teorema que provou sua genialidade e o tornou aclamado no meio onde atuava. Mas aos poucos o belo e arrogante Nash se transforma em um sofrido e atormentado homem, que chega até mesmo a ser diagnosticado como esquizofrênico pelos médicos que o tratam. Porém, após anos de luta para se recuperar, ele consegue retornar à sociedade e acaba sendo premiado com o Nobel.',
     rating: 4.5,
-    imagePath: 'public/images/menteBrilhante.jpg',
+    imagePath: 'images/menteBrilhante.jpg',
   },
   {
     title: 'Os mercenários',
@@ -228,7 +228,7 @@ const movies = [
     subtitle: 'Você está dentro ou fora?',
     storyline: 'O golpista Danny Ocean está de volta à ativa após uma breve estada na penitenciária de New Jersey, e pretende recomeçar com o mais ambicioso roubo de sua carreira. E para tanto, vai precisar do melhor time que U$$ 150 milhões e o desejo pelo desafio de roubar três dos maiores cassinos de Las Vegas possam comprar. O primeiro a se juntar à equipe é Rusty Ryan, que atualmente trapaceia em rodas de pôquer com jovens atores de Hollywood.',
     rating: 4.8,
-    imagePath: 'public/images/onzeHomens.jpg',
+    imagePath: 'images/onzeHomens.jpg',
   },
   {
     title: 'O Planeta do Tesouro',
@@ -256,7 +256,7 @@ const movies = [
     subtitle: 'Até cordeiros se tornarem leões.',
     storyline: 'Robin Longstride (Russell Crowe) integra o exército do rei Ricardo Coração de Leão (Danny Huston), que está em plenas cruzadas. Após a morte do rei, ele consegue escapar juntamente com alguns companheiros. Em sua tentativa de fuga eles encontram Sir Robert Loxley (Douglas Hodge), que tinha por missão levar a coroa do rei a Londres. Loxley foi atacado por Godfrey (Mark Strong), um inglês que serve secretamente aos interesses do rei Filipe, da França. À beira da morte, Loxley pede a Robin que entregue a seu pai uma espada tradicional da família. Ele aceita a missão e, vestido como se fosse um cavaleiro real, parte para Londres. Após entregar a coroa ao príncipe João (Oscar Isaac), que é nomeado rei, Robin parte para Nottingham. Lá conhece Sir Walter (Max von Sydow) e Marion (Cate Blanchett), respectivamente pai e esposa de Loxley.',
     rating: 4.8,
-    imagePath: 'public/images/robinHood.jpg',
+    imagePath: 'images/robinHood.jpg',
   },
   {
     title: 'RollerBall',
@@ -312,7 +312,7 @@ const movies = [
     subtitle: 'Ele está lá fora.',
     storyline: 'O Trovão Azul é um helicóptero especialmente modificado para trabalho policial, criado para controlar rebeliões. O piloto da polícia que deve ser treinado para comandá-lo tem diferenças com o criador do projeto desde a época do Vietnã, e elas pioram.',
     rating: 4.8,
-    imagePath: 'public/images/trovaoAzul.jpg',
+    imagePath: 'images/trovaoAzul.jpg',
   },
   {
     title: 'X-Men - Apocalipse',

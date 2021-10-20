@@ -1,0 +1,17 @@
+.cards-container-1 {
+  overflow-x: scroll;
+  white-space: nowrap;
+  background: none;
+}
+
+.cards-container {
+  background: none;
+  display: inline-block;
+}
+
+.card-image {
+  border: 2px solid rgb(61, 56, 56);
+  margin: 11px;
+  margin-top: 50px;
+  padding: 15px 5px 15px;
+}
