@@ -13,10 +13,10 @@ function App() {
     <div>
       <Header />
       <BrowserRouter>
-        <Route exact path="/" component={ MainPage } />
-        <Route path="/details" component={ Details } />
-        <Route path="/about" component={ About } />
-        <Route path="/comments" component={ Comments } />
+        <Route exact path="/my-app-movies" component={ MainPage } />
+        <Route exact path="/my-app-movies/details" component={ Details } />
+        <Route exact path="/my-app-movies/about" component={ About } />
+        <Route exact path="my-app-movies/comments" component={ Comments } />
       </BrowserRouter>
       <Footer />
     </div>
