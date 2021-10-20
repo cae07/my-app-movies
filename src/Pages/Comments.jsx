@@ -2,7 +2,7 @@ import React from 'react';
 
 function Comments() {
   return (
-    <h1>comentários</h1>
+    <h1>COMENTÁRIOS</h1>
   );
 }
 
