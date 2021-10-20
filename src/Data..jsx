@@ -11,7 +11,7 @@ const movies = [
     subtitle: 'A ascensão do Império',
     storyline: 'Após a morte do pai, Xerxes (Rodrigo Santoro) dá início a uma jornada de vingança e ruma em direção à Grécia, com seu exército sendo liderado por Artemisia (Eva Green). Enquanto os 300 espartanos liderados por Leonidas tantam combater o Deus-Rei, os exércitos do resto da Grécia se unem para uma batalha com as tropas de Artemisia no mar. Themistocles (Sullivan Stapleton) é o responsável por liderar os gregos.',
     rating: 4.5,
-    imagePath: 'images/300parte2',
+    imagePath: 'images/300parte2.jpg',
   },
   {
     title: '20000 Léguas Submarinas',
