@@ -11,14 +11,14 @@ import Comments from './Pages/Comments';
 function App() {
   return (
     <div>
-      <Header />
-      <BrowserRouter basename='/my-app-movies'>
+      <BrowserRouter>
+        <Header />
         <Route exact path="/" component={ MainPage } />
         <Route exact path="/details" component={ Details } />
         <Route exact path="/about" component={ About } />
         <Route exact path="/comments" component={ Comments } />
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }
