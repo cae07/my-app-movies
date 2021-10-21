@@ -3,6 +3,10 @@ import movies from '../Data.';
 import '../CSS/cards.css';
 
 function Cards() {
+  const handleClick = ({ target: { value } }) => {
+    console.log(value);
+  };
+
   return (
     <div className="cards-container-1">
       {movies.map((movie, idx) => (
@@ -16,7 +20,7 @@ function Cards() {
               alt={ `card filme: ${movie.title}` }
               height="300px"
             />
-            <button>
+            <button value={ movie.title } onClick={ handleClick }>
               detalhes
             </button>
           </div>

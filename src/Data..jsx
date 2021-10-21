@@ -7,8 +7,8 @@ const movies = [
     imagePath: 'https://www.themoviedb.org/t/p/w220_and_h330_face/qJlsfKtRRvJOKIf6CBZ20SCKcOp.jpg',
   },
   {
-    title: '300',
-    subtitle: 'A ascensão do Império',
+    title: '300 - A ascensão do Império',
+    subtitle: '',
     storyline: 'Após a morte do pai, Xerxes (Rodrigo Santoro) dá início a uma jornada de vingança e ruma em direção à Grécia, com seu exército sendo liderado por Artemisia (Eva Green). Enquanto os 300 espartanos liderados por Leonidas tantam combater o Deus-Rei, os exércitos do resto da Grécia se unem para uma batalha com as tropas de Artemisia no mar. Themistocles (Sullivan Stapleton) é o responsável por liderar os gregos.',
     rating: 4.5,
     imagePath: 'https://www.themoviedb.org/t/p/w220_and_h330_face/l9T9hsVca2mh0S29olWRUE3uBpz.jpg',
@@ -161,7 +161,7 @@ const movies = [
     imagePath: 'https://www.themoviedb.org/t/p/w220_and_h330_face/oDoxqekgain7WEHjoBN8BZIY6dY.jpg',
   },
   {
-    title: 'A Lenda do Tesouro Perdido',
+    title: 'A Lenda do Tesouro Perdido 2',
     subtitle: 'Livro dos Segredos.',
     storyline: 'Para provar a inocência de seu antepassado e encontrar a Cidade Perdida de Ouro, Ben Gates e sua equipe devem tecer seu caminho em direção a um livro misterioso e altamente guardado contendo séculos de segredos. Mas só há uma maneira de encontrá-lo: Ben deve sequestrar o presidente.',
     rating: 4.5,
