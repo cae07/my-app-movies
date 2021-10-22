@@ -1,12 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <>
       <h5>All Rights Reserved</h5>
       <h5>projeto realizado pelo Caê Calçolari</h5>
-      <a href="https://github.com/cae07">GitHub</a>
-      <a href="https://www.linkedin.com/in/carlos-eduardo-cal%C3%A7olari/">Linkedin</a>
+      <nav className="nav-conteiner">
+        <Link className="link" to="/">Home</Link>
+        <Link className="link" to="/about">Quem é Caê</Link>
+        <Link className="link" to="/comments">Comentários</Link>
+      </nav>
     </>
   );
 }

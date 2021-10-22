@@ -1,16 +1,33 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../CSS/header.css';
 
 function Header() {
+  const moviesTypes = [
+    'Categorias',
+    'Ação',
+    'Aventura',
+    'Romance',
+    'Drama',
+    'Comédia',
+    'Terror',
+    'Suspense',
+    'Espírita',
+    'Comédia Romântica',
+    'Ficção',
+    'Séries',
+  ]
+
   return (
     <div className="header-container">
       <h1>SUGESTFLIX</h1>
-      <nav className="nav-conteiner">
-        <Link className="link" to="/">Home</Link>
-        <Link className="link" to="/about">Quem é Caê</Link>
-        <Link className="link" to="/comments">Comentários</Link>
-      </nav>    </div>
+      <label htmlFor="input-filter">
+        <select>
+          {moviesTypes.map(((type) => (
+            <option value={ type }>{ type }</option>
+          )))}
+        </select>
+      </label>
+    </div>
   );
 }
 
