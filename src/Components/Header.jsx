@@ -21,7 +21,7 @@ function Header() {
     <div className="header-container">
       <h1>SUGESTFLIX</h1>
       <label htmlFor="input-filter">
-        <select>
+        <select className="select-categories">
           {moviesTypes.map(((type) => (
             <option value={ type }>{ type }</option>
           )))}
